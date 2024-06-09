@@ -34,10 +34,10 @@ const ViewAll = () => {
                                     <th scope="col">address</th>
                                 </tr>
                             </thead>
+                            <tbody>
                             {data.map(
                                 (value,index)=>{
-                                    return <tbody>
-                                    <tr>
+                                    return  <tr>
                                         <th scope="row">{index}</th>
                                         <td>{value.firstname}</td>
                                         <td>{value.lastname}</td>
@@ -50,11 +50,12 @@ const ViewAll = () => {
                                     </tr>
                                     
                                     
-                                </tbody>
+                                
                                 }
                             )
 
                             }
+                            </tbody>
                         </table>
                     </div>
                 </div>

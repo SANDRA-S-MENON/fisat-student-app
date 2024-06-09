@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import NavBar from './NavBar'
 
 const AddStudent = () => {
-    const{data,changeData}=useState(
+    const[data,changeData]=useState(
         {
             "firstname":"",
             "lastname":"",
